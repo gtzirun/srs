@@ -1,5 +1,5 @@
 ARG ARCH
-ARG IMAGE=ossrs/srs:ubuntu20
+ARG IMAGE=registry.cn-hangzhou.aliyuncs.com/ossrs/srs:4
 FROM ${ARCH}${IMAGE} AS build
 
 ARG CONFARGS
